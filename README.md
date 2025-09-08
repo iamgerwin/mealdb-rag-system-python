@@ -12,6 +12,30 @@ Prerequisites
 - Python 3.10+
 - Internet access for initial data fetch from TheMealDB
 
+## Django Admin Interface
+
+A web-based admin interface is available for managing the system configuration and data. See [DJANGO_ADMIN.md](DJANGO_ADMIN.md) for detailed setup and usage instructions.
+
+### Quick Start
+```bash
+# Set up the database
+python manage.py migrate
+
+# Create an admin user
+python manage.py createsuperuser
+
+# Start the server
+python manage.py runserver
+```
+
+Access at: http://127.0.0.1:8000/admin
+
+**Key Features:**
+- Manage API keys and configuration
+- Browse and search meal database
+- Monitor search analytics
+- Control cache and indexing tasks
+
 Install
 ```
 python -m venv .venv
