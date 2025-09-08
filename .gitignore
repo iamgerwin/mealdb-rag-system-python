@@ -67,6 +67,13 @@ coverage.xml
 *.cover
 .hypothesis/
 
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+
 # Documentation build
 docs/_build/
 docs/_static/
